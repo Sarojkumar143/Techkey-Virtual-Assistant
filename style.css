@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Prociono&family=Protest+Guerrilla&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    flex-direction: column;
+    
+   
+
+}
+#img{
+    width: 22vw;
+    box-shadow: 3px 5px #362657;
+    border-radius: 10px;
+}
+h1{
+    color: azure;
+    font-size: 32px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+#pre{
+    color: #5f23df;
+    font-size: 50px;
+}
+#assistant{
+    color: #b588ff;
+    font-size: 50px;
+}
+#voice{
+    width: 150px;
+    display: none;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 24px;
+    width:22%;
+    padding: 15px;
+    gap: 10px;
+    color: white;
+    border-radius: 20px;
+    background:linear-gradient(to right,#b588ff,#5f23df);
+    cursor: pointer;
+    box-shadow: 2px 2px 10px #b588ff,2px 2px 10px#5f23df ; 
+}
